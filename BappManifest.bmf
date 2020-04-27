@@ -1,0 +1,12 @@
+Uuid: 2d68a0c854514e858474d2c081a87fa3
+ExtensionType: 1
+Name: JS Cryptor
+RepoName: js-cryptor
+ScreenVersion: 0.3
+SerialVersion: 0
+MinPlatformVersion: 0
+ProOnly: False
+Author: Paul Johnston
+ShortDescription: Helps test applications that use JS encryption
+EntryPoint: build/libs/js-cryptor-1.0-all.jar
+BuildCommand: ./gradlew fatJar

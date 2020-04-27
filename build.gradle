@@ -8,11 +8,21 @@ buildscript {
     }
 }
 
+plugins {
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
 apply plugin: 'kotlin'
 apply plugin: 'application'
 
+javafx {
+    modules = [ 'javafx.controls' ]
+}
+
 group 'uk.onlineoutlaw'
 version '1.0'
+
+targetCompatibility = '1.8'
+sourceCompatibility = '1.8'
 
 sourceSets {
     main.kotlin.srcDirs = main.java.srcDirs = ['src']
